@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EditScrumSheet: View {
     @State private var editingScrum = DailyScrum.empty
+    @State private var isInitialized = false
     @Binding var scrum: DailyScrum
     @Binding var isPresentingEditView: Bool
     
@@ -30,7 +31,10 @@ struct EditScrumSheet: View {
                     }
                 }
                 .onAppear {
-                    editingScrum = scrum
+                    if !isInitialized {
+                        editingScrum = scrum
+                        isInitialized = true
+                    }
                 }
         }
     }
