@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8955D62A615C6F003C2E16 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8955D52A615C6F003C2E16 /* NewScrumSheet.swift */; };
+		1F8955D82A615EEA003C2E16 /* EditScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8955D72A615EEA003C2E16 /* EditScrumSheet.swift */; };
+		1F8955DA2A61667B003C2E16 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8955D92A61667B003C2E16 /* History.swift */; };
 		1FD61E1D2A5FB94A00532655 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD61E1C2A5FB94A00532655 /* ScrumdingerApp.swift */; };
 		1FD61E1F2A5FB94A00532655 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD61E1E2A5FB94A00532655 /* MeetingView.swift */; };
 		1FD61E212A5FB94C00532655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD61E202A5FB94C00532655 /* Assets.xcassets */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F8955D52A615C6F003C2E16 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		1F8955D72A615EEA003C2E16 /* EditScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumSheet.swift; sourceTree = "<group>"; };
+		1F8955D92A61667B003C2E16 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		1FD61E192A5FB94A00532655 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD61E1C2A5FB94A00532655 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		1FD61E1E2A5FB94A00532655 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,8 @@
 				1FD61E3C2A61143800532655 /* ThemePicker.swift */,
 				1FD61E322A5FD05E00532655 /* TrailingIconLabelStyle.swift */,
 				1FD61E492A6140EA00532655 /* ScrumProgressViewStyle.swift */,
+				1F8955D52A615C6F003C2E16 /* NewScrumSheet.swift */,
+				1F8955D72A615EEA003C2E16 /* EditScrumSheet.swift */,
 				1FD61E202A5FB94C00532655 /* Assets.xcassets */,
 				1FD61E222A5FB94C00532655 /* Preview Content */,
 			);
@@ -116,6 +124,7 @@
 				1FD61E2E2A5FCB0300532655 /* DailyScrum.swift */,
 				1FD61E402A613C1E00532655 /* ScrumTimer.swift */,
 				1FD61E422A613C7C00532655 /* AVPlayer+Ding.swift */,
+				1F8955D92A61667B003C2E16 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,17 +210,20 @@
 			files = (
 				1FD61E3D2A61143800532655 /* ThemePicker.swift in Sources */,
 				1FD61E2F2A5FCB0300532655 /* DailyScrum.swift in Sources */,
+				1F8955DA2A61667B003C2E16 /* History.swift in Sources */,
 				1FD61E372A5FFDE700532655 /* DetailView.swift in Sources */,
 				1FD61E432A613C7C00532655 /* AVPlayer+Ding.swift in Sources */,
 				1FD61E392A6025FD00532655 /* DetailEditView.swift in Sources */,
 				1FD61E4C2A61447800532655 /* MeetingFooterView.swift in Sources */,
 				1FD61E332A5FD05E00532655 /* TrailingIconLabelStyle.swift in Sources */,
 				1FD61E2D2A5FC82100532655 /* Theme.swift in Sources */,
+				1F8955D82A615EEA003C2E16 /* EditScrumSheet.swift in Sources */,
 				1FD61E482A613E7D00532655 /* MeetingHeaderView.swift in Sources */,
 				1FD61E4A2A6140EA00532655 /* ScrumProgressViewStyle.swift in Sources */,
 				1FD61E412A613C1E00532655 /* ScrumTimer.swift in Sources */,
 				1FD61E352A5FD44D00532655 /* ScrumsView.swift in Sources */,
 				1FD61E1F2A5FB94A00532655 /* MeetingView.swift in Sources */,
+				1F8955D62A615C6F003C2E16 /* NewScrumSheet.swift in Sources */,
 				1FD61E1D2A5FB94A00532655 /* ScrumdingerApp.swift in Sources */,
 				1FD61E3B2A6111E100532655 /* ThemeView.swift in Sources */,
 				1FD61E312A5FCB8C00532655 /* CardView.swift in Sources */,
